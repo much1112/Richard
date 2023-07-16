@@ -57,7 +57,7 @@ client.on(Events.InteractionCreate, async interaction => {
 
 
 
-const config = require('./config.json'); /*change to safe_config.json*/
+const config = require('./config.json');
 const {token} = config;
 
 client.on('ready', (c) => {
