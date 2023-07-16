@@ -6,4 +6,7 @@ const client = new Client({
     ]
 })
 
-client.login("MTEyOTk1MTQ5MDY4MTg4MDY2Ng.GPYAmh.qreSua8RLh-No20909-gteFk840KbsY3twPVns")
+require('dotenv').config();
+const botToken = process.env.BOT_TOKEN;
+
+client.login(botToken)
