@@ -28,4 +28,4 @@ coverage/
 *.bundle.js
 *.bundle.js.map
 
-.env
+config.json
