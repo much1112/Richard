@@ -27,3 +27,5 @@ coverage/
 # Ignore compiled or bundled files
 *.bundle.js
 *.bundle.js.map
+
+.env
