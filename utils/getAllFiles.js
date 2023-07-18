@@ -11,6 +11,7 @@ module.exports = (directory, foldersOnly = false) => {
     for (const file of files) {
         const filePath = path.join(directory, file.name);
 
+
 // sourcery skip: merge-else-if
         if (foldersOnly) {
             if (file.isDirectory()) {

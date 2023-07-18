@@ -21,7 +21,6 @@ module.exports = {
 
   callback: async (client, interaction) => {
       const chosenOption = interaction.options.getString('身分組');
-      console.log(chosenOption)
 
       const interactionUser = await interaction.guild.members.fetch(interaction.user.id);
       let testRole = interaction.guild.roles.cache.find(role => role.id === chosenOption);

@@ -1,4 +1,4 @@
-const { Client, IntentsBitField, GatewayIntentBits } = require('discord.js');
+const { Client, IntentsBitField, GatewayIntentBits, MessageActionRow, MessageButton, MessageSelectMenu } = require('discord.js');
 const eventHandler = require('./handlers/eventHandler');
 
 const client = new Client({
