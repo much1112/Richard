@@ -1,7 +1,7 @@
 const {ApplicationCommandOptionType, PermissionFlagsBits, EmbedBuilder} = require('discord.js');
-const getAovHeroCategory = require('../../AOV/getAovHeroCategory');
+const getAovHero = require('../../AOV/getAovHero');
 
-const heroFolderData = getAovHeroCategory()
+const heroFolderData = getAovHero()
 
 module.exports = {
   name: '英雄資訊',
