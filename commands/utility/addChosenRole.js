@@ -1,6 +1,6 @@
 const { ApplicationCommandOptionType, PermissionFlagsBits } = require('discord.js');
 
-const config = require('../../config.json');
+const config = require('../../roleID.json');
 const {roleID} = config;
 
 const convertedArray = Object.entries(roleID).map(([name, value]) => ({ name, value }));
